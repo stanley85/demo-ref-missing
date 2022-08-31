@@ -10,7 +10,7 @@ describe('app-main', () => {
     const button = page.root.shadowRoot.querySelectorAll('button');
 
     /**
-     * Test runs if only button[0] is not clicked
+     * Test runs if only button[0] is clicked
      */
     button[0].click();
 
